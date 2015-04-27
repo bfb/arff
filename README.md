@@ -1,4 +1,4 @@
-# ARFF Ruby parser.
+# ARFF Ruby parser
 
 An ARFF (Attribute-Relation File Format) file is an ASCII text file that describes a list of instances sharing a set of attributes.
 
@@ -12,7 +12,7 @@ Initialize an ARFF document.
 
     doc = Arff::Document.new('Cars')
 
-Add attributes to the document. You can add each attribute seperately or together.
+Add attributes to the document. You can add each attribute separately or together.
 
     doc.add_attribute({ name: 'brand', type: 'STRING' })
     doc.add_attributes([
